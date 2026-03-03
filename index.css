@@ -1,3 +1,33 @@
+*{
+    background-color: bisque;
+}
+
+/* element selector*/
 h1 {
     color:blueviolet ; text-decoration-style: dashed; font-size: 50px;
+}
+
+/*decentant selector*/
+div p{
+    color: rgb(231, 50, 5);
+}
+
+div p{
+    color: peru;
+}
+
+/* still decendant selector*/
+.intro p{
+    color: rgb(2, 62, 226);
+}
+
+/* group selector */
+.action p,
+.action a,
+.action span
+ {color: darkgreen; font-weight: 600;
+}
+
+p, a, span {
+    color: aqua; font-size: 40px;
 }

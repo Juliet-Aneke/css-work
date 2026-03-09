@@ -1,0 +1,76 @@
+h1{
+    color: blue;
+    text-decoration: underline;
+}
+
+
+h1:hover{
+    color: #ff9100;
+    background-color: aqua;
+    text-decoration: none;
+}
+ 
+h1:active{
+    color: rgb(241, 8, 28);
+}
+
+
+button{
+    outline: 0;
+    padding: 0.5rem 2rem;
+    color: chartreuse;
+    background-color: rgb(68, 0, 255);
+    border-radius: 20px;
+    cursor: pointer;
+    border: 1px solid black rgba(0, 0, 0. 0.5);
+}
+ button:hover{
+    color: #ff9100;
+    background-color: aqua;
+    transition: all 0.3s ease-in-out;
+    scale: 1.5;
+ }
+button:active{
+    transform: translateY(-14px) translateX(12px);
+    color: rgb(192, 196, 201);
+    background-color: red;
+    border-radius: 10px;
+    
+}
+
+input{
+    display: block;
+    margin: 1rem 0;
+    height: 1.5rem;
+    padding: 0.5px;
+    font-size: 14px;
+    border: 2px solid black;
+    outline: 0;
+    border-radius: 5px;
+}
+
+input:focus{
+border-color:  blue;    
+
+}
+input::placeholder{
+    color: purple;
+}
+
+ul li:last-child{
+    color: red
+}
+
+ul li:first-child{
+    color: green;
+}
+ ul li:nth-child(3){
+    color: blue;
+ }
+
+.box p:first-child{
+    color: gold;
+}
+.box p:last-child{
+    color: rgb(255, 0, 255);
+}

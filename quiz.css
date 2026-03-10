@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* #main p  */
+
+/* #main article p  */
+#main article p {
+    color: blue;
+}
+
+#main section p{
+    color: brown;
+}
+/* #main article section p*/
+
+
+/*question 4*/
+
+.menu ul li {
+    color: green;
+}
+
+.menu ul li:nth-child(3){
+    color: rgb(228, 114, 8);
+    font-weight: 600;
+}
+
+.menu li:last-child{ (to style service and SEO which are the last child in each section)
+    background-color: ;
+}
+
+.menu ul li li{
+    background-color: aqua;
+    color: rgb(55, 0, 255);
+    font-weight: ;
+}
+
+/*question no 5*/
+
+.blog{
+    color: blue;
+}
+.post h2{
+    background-color: brown;
+}
+.post-content p:last-child{
+    background-color: blueviolet;
+}
+.blog p{
+    color: gold;
+}
+.comments p:first-child{
+    color: rgba(16, 148, 27, 0.911);
+}
+post-content p{
+color: aqua;
+}

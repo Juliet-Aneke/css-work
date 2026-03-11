@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p.text1 {
+    font-size: 16px;
+}
+
+/* 1em is equivalent to the font-size of the parent */
+
+p.text1 span {
+    color: red;
+    font-size: 1.5em;
+}
+
+/* REM (Root em) */
+
+/* By default 1rem = 16px */
+p.text2 {
+    font-size: 2rem;
+}
+
+.box {
+    width: 100%;
+    background-color: gray;
+}
+
+.box div {
+    background-color: green;
+    color: white;
+    width: 50%;
+} 
+
+.box1 {
+    width: 100vw;
+    background-color: rgb(212, 118, 10);
+    height: 100vh;
+}
+
+.box1 div {
+    background-color: brown;
+    color: white;
+    width: 50%;
+    height: 50%;
+}

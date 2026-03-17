@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    display: inline-flex;
+}
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid gold;
+    gap: 16px; height: 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+.box1 div{
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+
+/*flex direction row*/
+.box2 {
+    margin-top: 2rem;
+    border: 2px solid black;
+    display: flex;
+    gap: 16px;
+    height: 200px;
+    justify-content:center;
+    align-items: center;
+
+}
+
+.box2 div{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+.box3 {
+    margin-top: 2rem;
+    border: 2px solid black;
+    height:350px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content:center ;
+    align-items:center 
+
+}
+
+.box3 div{
+    width: 50px;
+    height: 50px;
+    background-color: brown;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.box4{
+    border: 2px solid black;
+    width: 100%;
+    margin: 2rem auto 0;
+    max-width: 25rem;
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.box4 div{
+    width: 10rem;
+    height: 10rem;
+    background-color: blue;
+    color: white;
+    flex-shrink: 0;
+    overflow: hidden;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box5{
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.box5 button{
+    align-self: self-start
+}
+.box6{
+    margin: 1rem 0;
+    border: 1px solid black;
+    display: flex;
+    gap: 1rem;
+}
+
+.box5 div{
+    background-color: brown;
+    color: white;
+    width: 100px;
+}
+
+.box6 div:nth-child(1){
+    flex-grow: 1;
+}
+.box6 div:nth-child(2){
+    flex-grow: 2;
+}
+
+.box7 {
+    background-color: blue;
+    color: white;
+    width: 70px;
+}
+
+.box7 div:nth-child(1) {
+    flex-basis: 300px;
+    order: 2;
+}
+
+
+
+
+
